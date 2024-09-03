@@ -27,10 +27,17 @@ body {
 }
 
 .header {
+  font-size: 18px;
+  font-weight: bold;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
 }
 
+.text {
+  margin-bottom: 16px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -77,4 +84,3 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
-
