@@ -18,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 16px;
 }
 
 input {
@@ -31,6 +32,7 @@ input {
 .footer {
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
 
 .left-links,
@@ -44,6 +46,7 @@ input {
 
 a {
   text-decoration: none;
+  color: darkslategray;
 }
 
 .content {
@@ -52,4 +55,9 @@ a {
   flex-grow: 1;
   justify-content: center;
   align-items: center;
+  gap: 16px;
+}
+
+.footer {
+  background-color: #eeeeee;
 }
