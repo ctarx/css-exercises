@@ -34,6 +34,25 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.sidebar li {
+  padding-bottom: 16px;
+}
+
+.sidebar a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
 }
 
 .card {
